@@ -1,5 +1,3 @@
-const { resolve } = require('path')
-
 module.exports = {
   sourceType: 'module',
   presets: [
@@ -15,18 +13,6 @@ module.exports = {
   plugins: [
     '@babel/plugin-transform-modules-commonjs',
     '@babel/syntax-import-assertions',
-    'babel-plugin-transform-import-meta',
-    [
-      'search-and-replace',
-      {
-        rules: [
-          {
-            searchTemplateStrings: true,
-            search: 'import.meta.url',
-            replace: resolve(__dirname, 'workers')
-          }
-        ]
-      }
-    ]
+    'babel-plugin-transform-import-meta'
   ]
 }
