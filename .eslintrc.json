@@ -2,7 +2,7 @@
     "extends": [
         "standard",
         "plugin:import/recommended",
-        "plugin:n/recommended-module"
+        "plugin:n/recommended"
     ],
     "parserOptions": {
         "sourceType": "module",
