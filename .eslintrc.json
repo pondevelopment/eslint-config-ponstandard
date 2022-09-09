@@ -2,7 +2,7 @@
     "extends": [
         "standard",
         "plugin:import/recommended",
-        "plugin:n/recommended"
+        "plugin:n/recommended-module"
     ],
     "parserOptions": {
         "sourceType": "module",
@@ -187,11 +187,7 @@
             }
         ],
         "n/no-unpublished-import": [
-            "warn",
-            {
-                "allowModules": [],
-                "convertPath": null
-            }
+            "warn"
         ],
         "vars-on-top": "error",
         "for-direction": "error",
