@@ -2,7 +2,7 @@
     "extends": [
         "standard",
         "plugin:import/recommended",
-        "plugin:node/recommended"
+        "plugin:n/recommended"
     ],
     "parser": "@babel/eslint-parser",
     "parserOptions": {
