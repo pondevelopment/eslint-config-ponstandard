@@ -1,6 +1,6 @@
 {
     "name": "@pondevelopment/eslint-config-ponstandard",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "JavaScript Standard Style Eslint config with custom PON tweaks",
     "keywords": [
         "javascript",
@@ -21,12 +21,6 @@
     },
     "license": "MIT",
     "peerDependencies": {
-        "@babel/core": "^7.19.0",
-        "@babel/eslint-parser": "^7.18.9",
-        "@babel/plugin-syntax-import-assertions": "^7.18.6",
-        "@babel/plugin-transform-modules-commonjs": "^7.18.6",
-        "@babel/preset-env": "^7.19.0",
-        "babel-plugin-transform-import-meta": "^2.2.0",
         "eslint": "^8.23.0",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-import": "^2.26.0",
@@ -36,12 +30,6 @@
         "standard-engine": "^15.0.0"
     },
     "devDependencies": {
-        "@babel/core": "^7.19.0",
-        "@babel/eslint-parser": "^7.18.9",
-        "@babel/plugin-syntax-import-assertions": "^7.18.6",
-        "@babel/plugin-transform-modules-commonjs": "^7.18.6",
-        "@babel/preset-env": "^7.19.0",
-        "babel-plugin-transform-import-meta": "^2.2.0",
         "eslint": "^8.23.0",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-import": "^2.26.0",
