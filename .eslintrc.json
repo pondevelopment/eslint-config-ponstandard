@@ -186,18 +186,11 @@
                 "commonjs": true
             }
         ],
-        "node/no-unpublished-import": [
+        "n/no-unpublished-import": [
             "warn",
             {
                 "allowModules": [],
-                "convertPath": null,
-                "tryExtensions": [
-                    ".js",
-                    ".mjs",
-                    ".cjs",
-                    ".json",
-                    ".node"
-                ]
+                "convertPath": null
             }
         ],
         "vars-on-top": "error",
