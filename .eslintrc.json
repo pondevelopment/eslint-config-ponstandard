@@ -186,9 +186,7 @@
                 "commonjs": true
             }
         ],
-        "n/no-unpublished-import": [
-            "warn"
-        ],
+        "n/no-unpublished-import": "off",
         "vars-on-top": "error",
         "for-direction": "error",
         "getter-return": [
