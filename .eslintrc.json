@@ -188,6 +188,10 @@
             }
         ],
         "n/no-unpublished-import": "off",
+        "n/no-unsupported-features/es-syntax": [
+            "off",
+            {}
+        ],
         "vars-on-top": "error",
         "for-direction": "error",
         "getter-return": [
