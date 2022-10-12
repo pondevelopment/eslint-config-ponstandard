@@ -275,7 +275,6 @@
                     "String": "string"
                 },
                 "requireReturn": false,
-                "matchDescription": ".+",
                 "requireParamDescription": false,
                 "requireReturnDescription": false
             }
