@@ -272,7 +272,7 @@
             "error",
             {
                 "unifyParentAndChildTypeChecks": true
-            },
+            }
         ],
         "jsdoc/check-values": "error",
         "jsdoc/empty-tags": "error",
