@@ -4,7 +4,7 @@
         "standard",
         "plugin:import/recommended",
         "plugin:n/recommended",
-        "plugin:jsdoc"
+        "plugin:jsdoc/recommended"
     ],
     "parserOptions": {
         "sourceType": "module",
