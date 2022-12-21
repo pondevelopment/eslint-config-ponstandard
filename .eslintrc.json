@@ -3,7 +3,8 @@
     "extends": [
         "standard",
         "plugin:import/recommended",
-        "plugin:n/recommended"
+        "plugin:n/recommended",
+        "plugin:jsdoc"
     ],
     "parserOptions": {
         "sourceType": "module",
@@ -258,26 +259,52 @@
         ],
         "prefer-object-spread": "error",
         "no-delete-var": "error",
-        "valid-jsdoc": [
-            "error",
-            {
-                "prefer": {
-                    "arg": "param",
-                    "argument": "param",
-                    "class": "constructor",
-                    "return": "return",
-                    "virtual": "abstract"
-                },
-                "preferType": {
-                    "Boolean": "boolean",
-                    "Number": "number",
-                    "Object": "object",
-                    "String": "string"
-                },
-                "requireReturn": false,
-                "requireParamDescription": false,
-                "requireReturnDescription": false
-            }
-        ]
+        "jsdoc/check-access": "off", // Recommended
+        "jsdoc/check-alignment": "error", // Recommended
+        "jsdoc/check-examples": "error",
+        "jsdoc/check-indentation": "error",
+        "jsdoc/check-line-alignment": "off",
+        "jsdoc/check-param-names": "error", // Recommended
+        "jsdoc/check-property-names": "error", // Recommended
+        "jsdoc/check-syntax": "off",
+        "jsdoc/check-tag-names": "error", // Recommended
+        "jsdoc/check-types": "error", // Recommended
+        "jsdoc/check-values": "error", // Recommended
+        "jsdoc/empty-tags": "error", // Recommended
+        "jsdoc/implements-on-classes": "error", // Recommended
+        "jsdoc/match-description": "off",
+        "jsdoc/multiline-blocks": "error", // Recommended
+        "jsdoc/newline-after-description": "error", // Recommended
+        "jsdoc/no-bad-blocks": "off",
+        "jsdoc/no-defaults": "off",
+        "jsdoc/no-missing-syntax": "off",
+        "jsdoc/no-multi-asterisks": "error", // Recommended
+        "jsdoc/no-restricted-syntax": "off",
+        "jsdoc/no-types": "off",
+        "jsdoc/no-undefined-types": "error", // Recommended
+        "jsdoc/require-asterisk-prefix": "off",
+        "jsdoc/require-description": "off",
+        "jsdoc/require-description-complete-sentence": "off",
+        "jsdoc/require-example": "off",
+        "jsdoc/require-file-overview": "off",
+        "jsdoc/require-hyphen-before-param-description": "off",
+        "jsdoc/require-jsdoc": "off", // Recommended
+        "jsdoc/require-param": "error", // Recommended
+        "jsdoc/require-param-description": "off", // Recommended
+        "jsdoc/require-param-name": "error", // Recommended
+        "jsdoc/require-param-type": "error", // Recommended
+        "jsdoc/require-property": "error", // Recommended
+        "jsdoc/require-property-description": "off", // Recommended
+        "jsdoc/require-property-name": "error", // Recommended
+        "jsdoc/require-property-type": "error", // Recommended
+        "jsdoc/require-returns": "error", // Recommended
+        "jsdoc/require-returns-check": "error", // Recommended
+        "jsdoc/require-returns-description": "off", // Recommended
+        "jsdoc/require-returns-type": "error", // Recommended
+        "jsdoc/require-throws": "off",
+        "jsdoc/require-yields": "error", // Recommended
+        "jsdoc/require-yields-check": "error", // Recommended
+        "jsdoc/tag-lines": "error", // Recommended
+        "jsdoc/valid-types": "error" // Recommended
     }
 }
