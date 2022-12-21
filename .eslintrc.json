@@ -305,6 +305,6 @@
         "jsdoc/require-yields": "error",
         "jsdoc/require-yields-check": "error",
         "jsdoc/tag-lines": "error",
-        "jsdoc/valid-types": "error"
+        "jsdoc/valid-types": "warn"
     }
 }

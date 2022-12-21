@@ -1,6 +1,6 @@
 {
     "name": "@pondevelopment/eslint-config-ponstandard",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "JavaScript Standard Style Eslint config with custom PON tweaks",
     "keywords": [
         "javascript",
