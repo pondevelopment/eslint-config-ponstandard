@@ -1,6 +1,6 @@
 {
     "name": "@pondevelopment/eslint-config-ponstandard",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "JavaScript Standard Style Eslint config with custom PON tweaks",
     "keywords": [
         "javascript",
@@ -24,7 +24,7 @@
         "eslint": "^8.23.0",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-jsdoc": "^39.6.4",
+        "eslint-plugin-jsdoc": "^40.0.0",
         "eslint-plugin-n": "^15.2.5",
         "eslint-plugin-promise": "^6.0.1",
         "standard": "^17.0.0",
@@ -34,7 +34,7 @@
         "eslint": "^8.23.0",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-jsdoc": "^39.6.4",
+        "eslint-plugin-jsdoc": "^40.0.0",
         "eslint-plugin-n": "^15.2.5",
         "eslint-plugin-promise": "^6.0.1",
         "standard": "^17.0.0",
