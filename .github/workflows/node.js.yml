@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x, 19.x]
+        node-version: [16.x, 18.x, 19.x, 20.x]
 
     steps:
     - uses: actions/checkout@v3
@@ -23,5 +23,5 @@ jobs:
         npm run vulnerabilities
         npm run lint
       env:
-        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        NPM_TOKEN: ${{secrets.NPM_TOKEN}}
         CI: true
